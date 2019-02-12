@@ -1,9 +1,10 @@
 FROM python:3.6.0-alpine
 
 WORKDIR /app
-ADD . /app
+COPY . /app
 
-RUN apk update && apk add gcc && apk add musl-dev
+RUN apk add --no-cache gcc && apk add --no-cache musl-dev \
+ && rm -rf /var/cache/apk/*
 RUN pip install --upgrade pip -r /app/requirements.txt
 
 ENV POST_DATABASE_HOST post_db
