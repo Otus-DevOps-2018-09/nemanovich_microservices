@@ -17,3 +17,9 @@ nemanovich microservices repository
 * Добавлен docker-compose для деплоя reddit (фронт и бд расположены в разных сетях)
 * Для изменения префикса запускаемых контейнеров
 можно использовать опцию -p: `docker-compose -p MY_PROJECT_NAME up`
+
+### gitlab-ci
+Настройка gitlab
+* Поднят gitlab на vm в GCP. Добавлен docker-compose.yml для развертывания gitlab.
+* Запущен gitlab-раннер на этой же машине.
+* В gitlab создан проект reddit, настроен пайплайн с запуском тестов по коммиту.
