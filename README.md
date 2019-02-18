@@ -12,4 +12,8 @@ nemanovich microservices repository
 Настройка докера для микросервисного приложения
 * Добавлены Dockerfile's для микросервисов reddit
 
-
+### docker-4
+Настройка docker-compose
+* Добавлен docker-compose для деплоя reddit (фронт и бд расположены в разных сетях)
+* Для изменения префикса запускаемых контейнеров
+можно использовать опцию -p: `docker-compose -p MY_PROJECT_NAME up`
