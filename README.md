@@ -33,3 +33,8 @@ nemanovich microservices repository
 * В docker-compose.yml добавлен сервис логирования prometheus
 * prometheus следит за сервисами ui/post/comment + добавлен node exporter
 
+### monitoring-2
+* Из docker-compose выделены сервисы, относящиеся к мониторингу
+* Добавлена grafana, настроены и сохранены дашборды для нее
+* Добавлен alertmanager, настроена интеграция со слаком
+
