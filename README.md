@@ -29,3 +29,7 @@ nemanovich microservices repository
  и только в тегированных ветках
 * Добавлен пример динамического окружения.
 
+### monitoring-1
+* В docker-compose.yml добавлен сервис логирования prometheus
+* prometheus следит за сервисами ui/post/comment + добавлен node exporter
+
