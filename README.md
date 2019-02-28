@@ -41,3 +41,6 @@ nemanovich microservices repository
 ### logging-1
 * Настроены fluentd, elasticsearch и kibana (docker-compose-logging.yml)
 * В fluentd настроен парсер логов из сервисов post и ui
+
+### kubernetes-1
+* Пройден https://github.com/kelseyhightower/kubernetes-the-hard-way, закоммичены конфиги
