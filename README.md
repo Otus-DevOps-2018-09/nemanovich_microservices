@@ -38,3 +38,6 @@ nemanovich microservices repository
 * Добавлена grafana, настроены и сохранены дашборды для нее
 * Добавлен alertmanager, настроена интеграция со слаком
 
+### logging-1
+* Настроены fluentd, elasticsearch и kibana (docker-compose-logging.yml)
+* В fluentd настроен парсер логов из сервисов post и ui
